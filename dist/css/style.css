@@ -28,12 +28,12 @@
    */
   
   ::-moz-selection {
-    background: #b3d4fc;
+    background: #CAC691;
     text-shadow: none;
   }
   
   ::selection {
-    background: #b3d4fc;
+    background: #CAC691;
     text-shadow: none;
   }
   
@@ -302,7 +302,7 @@
   /* -------------------- Base Header Styles -------------------- */
   
   header {
-    background-color: #ffe8d6;
+    background-color: #CAC691;
   }
   
   header nav ul li {
@@ -313,7 +313,7 @@
   }
   
   nav #contact-link {
-    background-color: #F19494;
+    background-color: #E9B14C ;
     padding: 10px 10px;
     border-radius: 30px;
   }
