@@ -93,7 +93,6 @@
     font-family: 'Lekton', sans-serif;
     color: #152A3E;
     background-color: white;
-    /* Sometimes the default background for a browser isn't exactly white. Adding a default allows more consistency between browsers. */
   }
   
   ul,
@@ -111,7 +110,7 @@
   h1 {
     font-family: 'Lexend Tera', sans-serif;
     color: #152A3E;
-    font-size: 1.75rem;
+    font-size: 2.25rem;
     line-height: 1.5;
     width: 100%
   }
@@ -120,7 +119,7 @@
     font-family: 'Lexend Tera', sans-serif;
     color: #152A3E;
     font-size: 1.25rem;
-    line-height: 1.5;
+    line-height: 1.25;
     width: 100%;
     font-weight: 400;
   }
@@ -304,12 +303,20 @@
   header {
     background-color: #CAC691;
   }
+
+  header nav {
+    float: right;
+    text-align:right;
+    width: 650px;
+    padding: 60px 25px 60px 0;
+  }
   
   header nav ul li {
-    font-size: .75rem;
+    font-size: .80rem;
     margin-bottom: 20px;
     font-weight: bold;
     text-transform: uppercase;
+    padding-left:80px;
   }
   
   nav #contact-link {
@@ -325,6 +332,12 @@
   
   header h1 {
     width: 100%;
+    
+  }
+
+  .home-title {
+    width: 100%;
+    display: inline-block;
   }
   
   header h2 {
