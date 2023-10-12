@@ -90,8 +90,8 @@
   /* General Styles */
   body {
     font-size: 1em;
-    font-family: 'Open Sans', sans-serif;
-    color: #453E4F;
+    font-family: 'Lekton', sans-serif;
+    color: #152A3E;
     background-color: white;
     /* Sometimes the default background for a browser isn't exactly white. Adding a default allows more consistency between browsers. */
   }
@@ -104,21 +104,21 @@
   }
   
   a {
-    color: #453E4F;
+    color: #152A3E;
     text-decoration: none;
   }
   
   h1 {
-    color: #453E4F;
-    font-family: 'Alike', serif;
+    font-family: 'Lexend Tera', sans-serif;
+    color: #152A3E;
     font-size: 1.75rem;
     line-height: 1.5;
     width: 100%
   }
   
   h2 {
-    color: #453E4F;
-    font-family: 'Alike', serif;
+    font-family: 'Lexend Tera', sans-serif;
+    color: #152A3E;
     font-size: 1.25rem;
     line-height: 1.5;
     width: 100%;
@@ -142,7 +142,7 @@
   .tool-wrapper p {
     text-transform: uppercase;
     font-size: 1.125rem;
-    color: #453E4F;
+    color: #152A3E;
   }
   
   
@@ -156,7 +156,7 @@
   h4,
   h5,
   h6 {
-    font-family: 'Alike', serif;
+    font-family: 'Lexend Tera', sans-serif;
     line-height: 1.5;
     width: 100%
   }
@@ -372,19 +372,20 @@
   }
   
   .project-link {
-    background-color: #453E4F;
+    background-color: #B4C7D9;
     padding: .75rem 3.75rem;
     border-radius: 30px;
-    color: #FFFFFF;
+    color: #152A3E;
+    font-weight: 500;
   }
   
   .project-link:hover {
-    background-color: #CAC4D1;
-    color: #453E4F;
+    background-color: #F8D697;
+    color: #F8D697;
   }
   
   #skills {
-    background-color: #FFE8D6;
+    background-color: #EEEFDA;
   }
   
   #skills h4 {
@@ -394,7 +395,8 @@
   
   .language-wrapper p,
   .tool-wrapper p {
-    background-color: #F19494;
+    background-color: #152A3E;
+    color: #CAC691;
     padding: 15px 0;
     margin: 20px 0;
   }
@@ -420,7 +422,7 @@
   
   /* -------------------- Base Header Styles -------------------- */
   footer {
-    background-color: #FFE8D6;
+    background-color: #F7E8E8;
   }
   
   footer .contact-wrapper {
@@ -463,6 +465,6 @@
   
   footer .social-icons li i {
     font-size: 1.875rem;
-    color: #453e4f;
+    color: #E9B14C;
   }
 
