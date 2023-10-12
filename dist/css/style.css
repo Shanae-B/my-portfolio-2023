@@ -172,7 +172,7 @@
   }
   
   img {
-    width: 100%;
+    width: 50%;
   }
   
   figure {
@@ -372,16 +372,16 @@
   }
   
   .project-link {
-    background-color: #B4C7D9;
+    background-color: #152A3E;
     padding: .75rem 3.75rem;
     border-radius: 30px;
-    color: #152A3E;
+    color: #F7E8E8;
     font-weight: 500;
   }
   
   .project-link:hover {
-    background-color: #F8D697;
-    color: #F8D697;
+    background-color: #B4C7D9;
+    color: #152A3E;
   }
   
   #skills {
@@ -396,7 +396,7 @@
   .language-wrapper p,
   .tool-wrapper p {
     background-color: #152A3E;
-    color: #CAC691;
+    color: #E9B14C;
     padding: 15px 0;
     margin: 20px 0;
   }
