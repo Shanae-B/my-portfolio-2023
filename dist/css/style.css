@@ -175,7 +175,12 @@
   }
   
   figure {
-    margin: 0;
+    /**margin: 0;**/
+    width: 200px;
+    height: 150px;
+    /**border: 10px solid #ffffff;**/
+    margin: 0 50px;
+    box-sizing: border-box;
   }
   
   address {
@@ -197,11 +202,29 @@
   .content-wrapper {
     width: 85%;
   }
+
+  #about img {
+    float: left;
+    width: 450px;
+}
+
+
+.about-info, .about-text {
+  /**padding-left: 300px;**/
+  /**margin: 0 50px;**/
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding-left: 20px;
+  /**align-items: flex-start;**/
+
+}
   
   #work p,
   #about p {
     width: 100%;
     text-align: left;
+    justify-content: center;
   }
   
   /* set the margins & paddings for each section - these are only a suggestion :) */
@@ -238,7 +261,7 @@
   }
   
   #about {
-    padding-top: 60px;
+    padding-top: 45px;
     padding-bottom: 60px;
   }
   
@@ -279,11 +302,11 @@
   }
   
   .about-info h3 {
-    margin: 40px 0 40px 0;
+    margin: 20px 0 40px 0;
   }
   
   .about-text {
-    margin: 0 0 30px 0;
+    margin: 0 0 10px 0;
   }
   
   #contact h3 {
@@ -323,6 +346,10 @@
     background-color: #E9B14C ;
     padding: 10px 10px;
     border-radius: 30px;
+  }
+
+  #contact-link:hover {
+    background-color: #F8D697;
   }
   
   nav ul {
