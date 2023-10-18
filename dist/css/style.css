@@ -183,6 +183,8 @@
     box-sizing: border-box;
   }
   
+
+  
   address {
     font-style: normal;
   }
@@ -351,6 +353,22 @@
   #contact-link:hover {
     background-color: #F8D697;
   }
+
+  .home-portfolio-piece figure {
+    width: 30%;
+    filter: drop-shadow(1px 2px 6px lightgrey);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.home-portfolio-piece p {
+
+  justify-content: space-around;
+}
+
   
   nav ul {
     display: flex;
