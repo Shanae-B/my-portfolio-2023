@@ -575,8 +575,25 @@
 
 /*************************************TABLETS******************************/
 /* Media query for screens between 768px and 991px (e.g., tablets) */
-@media (min-width: 768px) and (max-width: 1199px) {
   /* Styles for tablets */
+
+  @media only screen and (min-width:768px) and (max-width:1199px) {
+    /*Tablet styles here*/
+  
+    /* General styles */
+    .content-wrapper {
+      max-width: 640px;
+      margin: 100px 0;
+    }
+
+    header nav {
+      width: 20%;
+    }
+  
+    header nav ul {
+      justify-content: space-between;
+    }
+
 
    /* Portfolio */
    #work,
@@ -750,12 +767,14 @@
     color: #E9B14C;
     width: 15%;
     margin: 0;
-  padding: 15px;
+    text-align: center;
+  /**padding: 15px;**/
   border-radius: 5px;
   }
 
   .tool-wrapper, .language-wrapper {
     display: flex;
+    justify-content: space-around;
   }
 
   /**.content-wrapper {
@@ -768,16 +787,17 @@
 
   
   .tool {
-    width: 200%;
+    width: 100%;
   }
   
   /* About */
   #about {
-    width: 50%;
+    width: 100%;
   }
   
   #profile-image {
-    width: 45%;
+    width: 100%;
+    justify-content: center;
   }
   
   #about h3,
