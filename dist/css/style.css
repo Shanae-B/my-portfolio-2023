@@ -418,6 +418,10 @@
   }
   
   /* -------------------- Mobile Styles - Homepage -------------------- */
+  /*************************************MOBILE DEVICES******************************/
+/* Media query for screens smaller than 768px (e.g., mobile devices) */
+@media (min-width: 768px) {
+  /* Styles for small screens */
   
   /* Portfolio */
   #work,
@@ -449,7 +453,7 @@
   }
   
   .home-portfolio-piece figure {
-    width: 100%;
+    width: 50%;
     filter: drop-shadow(1px 2px 6px lightgrey);
   }
   
@@ -488,13 +492,13 @@
     margin: 20px 0;
   }
 
-  /**.language-wrapper, 
-  .tool-wrapper {
+  .skills {
 
-    display: flex;
+    width: 125%;
     justify-content: center;
-    align-items: center;
-  }**/
+    display: flex;
+    flex-direction: column;
+  }
 
   
   .tool {
@@ -507,7 +511,9 @@
   }
   
   #profile-image {
-    width: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
   
   #about h3,
@@ -515,6 +521,7 @@
   #about p {
     color: #4a4f3e;
   }
+}
   
   /* -------------------- Base Header Styles -------------------- */
   footer {
@@ -544,7 +551,7 @@
   
   footer .social-icons {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
   
   footer ul {
@@ -564,34 +571,219 @@
     color: #E9B14C;
   }
 
-/* Default styles for all screen sizes */
 
-/* Media query for screens smaller than 768px (e.g., mobile devices) */
-@media (max-width: 767px) {
-  /* Styles for small screens */
-}
 
+/*************************************TABLETS******************************/
 /* Media query for screens between 768px and 991px (e.g., tablets) */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   /* Styles for tablets */
+
+   /* Portfolio */
+   #work,
+   #skills {
+     width: 50%;
+   }
+   
+   #work h3 {
+     width: 50%;
+   }
+   
+   .portfolio-wrapper {
+     display: flex;
+     justify-content: center;
+     align-items: stretch;
+     flex-flow: row wrap;
+   }
+   
+   .home-portfolio-piece {
+     width: 50%;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+   }
+   
+   .home-portfolio-piece h4 {
+     font-weight: bold;
+   }
+   
+   .home-portfolio-piece figure {
+     width: 50%;
+     filter: drop-shadow(1px 2px 6px lightgrey);
+   }
+   
+   .flex-fill {
+     flex-grow: 1;
+   }
+   
+   .project-link {
+     background-color: #152A3E;
+     padding: .75rem 3.75rem;
+     border-radius: 30px;
+     color: #F7E8E8;
+     font-weight: 500;
+   }
+   
+   .project-link:hover {
+     background-color: #B4C7D9;
+     color: #152A3E;
+   }
+   
+   #skills {
+     background-color: #EEEFDA;
+   }
+   
+   #skills h4 {
+     margin: 40px 0 40px 0;
+     font-weight: bold;
+   }
+   
+   .language-wrapper p,
+   .tool-wrapper p {
+     background-color: #152A3E;
+     color: #E9B14C;
+     width: 15%;
+     padding: 15px 0;
+     margin: 20px 0;
+   }
+ 
+   .skills {
+ 
+     width: 75%;
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+   }
+ 
+   
+   .tool {
+     width: 50%;
+   }
+   
+   /* About */
+   #about {
+     width: 50%;
+   }
+   
+   #profile-image {
+     width: 45%;
+   }
+   
+   #about h3,
+   #about h4,
+   #about p {
+     color: #4a4f3e;
+   }
 }
 
-/* Media query for screens between 992px and 1199px (e.g., larger tablets and small desktops) */
-@media (min-width: 992px) and (max-width: 1199px) {
-  /* Styles for larger tablets and small desktops */
-}
-
+/*************************************DESKTOPS******************************/
 /* Media query for screens 1200px and larger (e.g., desktops) */
 @media (min-width: 1200px) {
   /* Styles for desktop screens */
+
+  /* Portfolio */
+  #work,
+  #skills {
+    width: 100%;
+  }
+  
+  #work h3 {
+    width: 100%;
+  }
+  
+  .portfolio-wrapper {
+    display: flex;
+    justify-content: center;
+    /**align-items: stretch;**/
+    flex-flow: row wrap;
+  }
+  
+  .home-portfolio-piece {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .home-portfolio-piece h4 {
+    font-weight: bold;
+  }
+  
+  .home-portfolio-piece figure {
+    width: 120%;
+    filter: drop-shadow(1px 2px 6px lightgrey);
+  }
+  
+  .flex-fill {
+    flex-grow: 1;
+  }
+  
+  .project-link {
+    background-color: #152A3E;
+    padding: .75rem 3.75rem;
+    border-radius: 30px;
+    color: #F7E8E8;
+    font-weight: 500;
+  }
+  
+  .project-link:hover {
+    background-color: #B4C7D9;
+    color: #152A3E;
+  }
+  
+  #skills {
+    background-color: #EEEFDA;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #skills h4 {
+    margin: 40px 0 40px 0;
+    font-weight: bold;
+  }
+  
+  .language-wrapper p,
+  .tool-wrapper p {
+    background-color: #152A3E;
+    color: #E9B14C;
+    width: 15%;
+    margin: 0;
+  padding: 15px;
+  border-radius: 5px;
+  }
+
+  .tool-wrapper, .language-wrapper {
+    display: flex;
+  }
+
+  /**.content-wrapper {
+    display: grid;
+  }**/
+
+  .skills {
+    width: 100%;
+  }
+
+  
+  .tool {
+    width: 200%;
+  }
+  
+  /* About */
+  #about {
+    width: 50%;
+  }
+  
+  #profile-image {
+    width: 45%;
+  }
+  
+  #about h3,
+  #about h4,
+  #about p {
+    color: #4a4f3e;
+  }
 }
 
-/* Landscape mode (optional) */
-@media (orientation: landscape) {
-  /* Styles for landscape orientation */
-}
-
-/* Portrait mode (optional) */
-@media (orientation: portrait) {
-  /* Styles for portrait orientation */
-}
