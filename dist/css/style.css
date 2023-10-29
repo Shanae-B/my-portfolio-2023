@@ -483,15 +483,30 @@
     font-weight: bold;
   }
   
-  .language-wrapper p,
+ /** .language-wrapper p,
   .tool-wrapper p {
     background-color: #152A3E;
     color: #E9B14C;
     width: 25%;
     padding: 15px 0;
     margin: 20px 0;
+  }**/
+
+  .language-wrapper p,
+  .tool-wrapper p {
+    background-color: #152A3E;
+    color: #E9B14C;
+    width: 15%;
+    margin: 0;
+    text-align: center;
+  /**padding: 15px;**/
+  border-radius: 5px;
   }
 
+  .tool-wrapper, .language-wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
   .skills {
 
     width: 125%;
@@ -587,7 +602,8 @@
     }
 
     header nav {
-      width: 20%;
+      width: 100%;
+      padding-top: 0;
     }
   
     header nav ul {
@@ -598,34 +614,33 @@
    /* Portfolio */
    #work,
    #skills {
-     width: 50%;
+     width: 100%;
    }
    
    #work h3 {
-     width: 50%;
+     width: 100%;
    }
    
    .portfolio-wrapper {
-     display: flex;
-     justify-content: center;
-     align-items: stretch;
-     flex-flow: row wrap;
-   }
-   
-   .home-portfolio-piece {
-     width: 50%;
-     display: flex;
-     justify-content: center;
-     flex-direction: column;
-     align-items: center;
-   }
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+  
+  .home-portfolio-piece {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
    
    .home-portfolio-piece h4 {
      font-weight: bold;
    }
    
    .home-portfolio-piece figure {
-     width: 50%;
+     width: 100%;
      filter: drop-shadow(1px 2px 6px lightgrey);
    }
    
@@ -659,31 +674,33 @@
    .tool-wrapper p {
      background-color: #152A3E;
      color: #E9B14C;
-     width: 15%;
+     width: 100%;
      padding: 15px 0;
      margin: 20px 0;
+     flex-direction: column;
+     justify-content: space-between;
    }
  
    .skills {
  
-     width: 75%;
-     justify-content: center;
+     width: 100%;
+     /**justify-content: center;**/
      display: flex;
-     flex-direction: column;
+    /** flex-direction: column;**/
    }
  
    
    .tool {
-     width: 50%;
+     width: 100%;
    }
    
    /* About */
    #about {
-     width: 50%;
+     width: 100%;
    }
    
    #profile-image {
-     width: 45%;
+     width: 100%;
    }
    
    #about h3,
@@ -711,7 +728,6 @@
   .portfolio-wrapper {
     display: flex;
     justify-content: center;
-    /**align-items: stretch;**/
     flex-flow: row wrap;
   }
   
@@ -753,7 +769,7 @@
     background-color: #EEEFDA;
     display: flex;
     align-items: center;
-    text-align: center;
+    text-align:center;
   }
   
   #skills h4 {
@@ -777,12 +793,9 @@
     justify-content: space-around;
   }
 
-  /**.content-wrapper {
-    display: grid;
-  }**/
-
   .skills {
     width: 100%;
+    text-align: center;
   }
 
   
