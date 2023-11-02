@@ -389,18 +389,12 @@
   .home-portfolio-piece figure {
     width: 100%;
     filter: drop-shadow(1px 2px 6px lightgrey);
-    /**padding-top: 5%;**/
     padding-bottom: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-
-  figure {
-
     margin-top: 20%;
     margin-bottom: 0;
-    display: flex;
   }
 
 
@@ -504,15 +498,7 @@
     margin: 40px 0 40px 0;
     font-weight: bold;
   }
-  
- /** .language-wrapper p,
-  .tool-wrapper p {
-    background-color: #152A3E;
-    color: #E9B14C;
-    width: 25%;
-    padding: 15px 0;
-    margin: 20px 0;
-  }**/
+
 
   .language-wrapper p,
   .tool-wrapper p {
@@ -521,7 +507,6 @@
     width: 15%;
     margin: 0;
     text-align: center;
-  /**padding: 15px;**/
   border-radius: 5px;
   }
 
@@ -546,12 +531,18 @@
   #about {
     width: 100%;
   }
+
+  .about-text {
+    display: flex;
+    justify-content: right;
+    padding-top: 0;
+  }
   
-  #profile-image {
+ /** #profile-image {
     width: 100%;
     display: flex;
     justify-content: center;
-  }
+  }**/
   
   #about h3,
   #about h4,
@@ -626,6 +617,7 @@
     header nav {
       width: 100%;
       padding-top: 0;
+      justify-content: right;
     }
   
     header nav ul {
@@ -725,6 +717,14 @@
    #about {
      width: 100%;
    }
+
+   .about-text {
+    display: flex;
+    justify-content: right;
+    padding-top: 0;
+    margin: 0;
+    flex-direction: row-wrap;
+  }
    
    #profile-image {
      width: 100%;
@@ -836,8 +836,8 @@
   }
   
   #profile-image {
-    width: 100%;
-    justify-content: center;
+    width: 50%;
+    /**justify-content: center;**/
   }
   
   #about h3,
