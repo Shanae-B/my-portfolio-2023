@@ -208,17 +208,17 @@
 
   #about img {
     float: left;
-    width: 450px;
+    width: 400px;
+    padding-right: 45px;
 }
 
 
 .about-info, .about-text {
   /**padding-left: 300px;**/
-  /**margin: 0 50px;**/
+  margin: 5px 0 50px 0;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  padding-left: 20px;
   /**align-items: flex-start;**/
 
 }
@@ -428,7 +428,7 @@
   /* -------------------- Mobile Styles - Homepage -------------------- */
   /*************************************MOBILE DEVICES******************************/
 /* Media query for screens smaller than 768px (e.g., mobile devices) */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   /* Styles for small screens */
   
   /* Portfolio */
@@ -446,6 +446,11 @@
     width: 100%;
     display: flex;
     justify-content: right;
+  }
+
+  nav #contact-link {
+
+    width: 100%;
   }
   
   .portfolio-wrapper {
@@ -469,7 +474,7 @@
   }
   
   .home-portfolio-piece figure {
-    width: 50%;
+    width: 100%;
     filter: drop-shadow(1px 2px 6px lightgrey);
   }
   
@@ -502,9 +507,9 @@
 
   .language-wrapper p,
   .tool-wrapper p {
-    background-color: #152A3E;
-    color: #E9B14C;
-    width: 15%;
+    /*background-color: #152A3E;*/
+    color: #152A3E;
+    width: 20%;
     margin: 0;
     text-align: center;
   border-radius: 5px;
@@ -516,10 +521,11 @@
   }
   .skills {
 
-    width: 125%;
+    width: 100%;
     justify-content: center;
     display: flex;
     flex-direction: column;
+    list-style-type: armenian;
   }
 
   
@@ -527,27 +533,35 @@
     width: 100%;
   }
   
+  
   /* About */
   #about {
     width: 100%;
+    display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
   }
 
-  .about-text {
-    display: flex;
-    justify-content: right;
-    padding-top: 0;
+  .about-content-wrapper {
+    display: flex; /* Use flex layout for the container */
+    flex-direction: column; /* Stack the children vertically */
+    align-items: center; /* Center children horizontally */
+    text-align: center; /* Center text content within .about-info */
   }
-  
- /** #profile-image {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }**/
   
   #about h3,
   #about h4,
   #about p {
     color: #4a4f3e;
+  }
+
+  #profile-image {
+    max-width: 100%; /* Ensure the image fits within the container */
+   
+  }
+  
+  .about-info {
+    margin-top: 50px; /* Add some spacing between the image and .about-info */
   }
 }
   
@@ -721,7 +735,6 @@
    .about-text {
     display: flex;
     justify-content: right;
-    padding-top: 0;
     margin: 0;
     flex-direction: row-wrap;
   }
