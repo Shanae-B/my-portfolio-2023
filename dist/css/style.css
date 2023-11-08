@@ -208,7 +208,7 @@
 
   #about img {
     float: left;
-    width: 400px;
+    width: 275px;
     padding-right: 45px;
 }
 
@@ -729,14 +729,22 @@
    
    /* About */
    #about {
-     width: 100%;
-   }
-
-   .about-text {
+    width: 100%;
     display: flex;
-    justify-content: right;
-    margin: 0;
-    flex-direction: row-wrap;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  }
+
+  .about-content-wrapper {
+    display: flex; /* Use flex layout for the container */
+    flex-direction: column; /* Stack the children vertically */
+    align-items: center; /* Center children horizontally */
+    text-align: center; /* Center text content within .about-info */
+  }
+
+  .about-info {
+
+    padding-top: 30%;
   }
    
    #profile-image {
@@ -846,12 +854,24 @@
   /* About */
   #about {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
-  #profile-image {
-    width: 50%;
-    /**justify-content: center;**/
+  .about-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
+  
+  .about-info {
+    flex: 1; /* This will make the about-info div take up the remaining space */
+    padding: 100px; /* Adjust the padding as needed */
+    text-align: left; /* You can change this to 'center' if you want the text to be centered */
+  }
+  
+
   
   #about h3,
   #about h4,
