@@ -300,14 +300,14 @@
   .map figure {
     width: 100%;
     height: 0; 
-    padding-bottom: 100%; 
+    padding-bottom: 50%; 
     overflow: hidden;
     position: relative;
 }
  
 .map iframe {
     width: 100%;
-    height: 50%;
+    height: 100%;
     position: absolute; 
     top: 0; 
     left: 0; 
@@ -445,8 +445,27 @@
 
     width: 100%;
     display: flex;
-    justify-content: right;
+    justify-content:space-around;
+
+
   }
+
+header nav ul {
+  width: 75%;
+    font-weight: 700;
+    text-transform: uppercase;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+ /** 
+  header nav ul li {
+
+    font-size: 5%;
+    align-items: stretch;
+    flex-flow: row wrap;
+    
+  }**/
 
   nav #contact-link {
 
@@ -513,6 +532,7 @@
     margin: 0;
     text-align: center;
   border-radius: 5px;
+  font-size:x-small;
   }
 
   .tool-wrapper, .language-wrapper {
