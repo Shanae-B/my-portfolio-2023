@@ -176,10 +176,8 @@
   }
   
   figure {
-    /**margin: 0;**/
     width: 200px;
     height: 150px;
-    /**border: 10px solid #ffffff;**/
     margin: 0 50px;
     box-sizing: border-box;
   }
@@ -458,14 +456,7 @@ header nav ul {
     flex-flow: row wrap;
 }
 
- /** 
-  header nav ul li {
 
-    font-size: 5%;
-    align-items: stretch;
-    flex-flow: row wrap;
-    
-  }**/
 
   nav #contact-link {
 
@@ -526,7 +517,6 @@ header nav ul {
 
   .language-wrapper p,
   .tool-wrapper p {
-    /*background-color: #152A3E;*/
     color: #152A3E;
     width: 20%;
     margin: 0;
@@ -869,6 +859,15 @@ header nav ul {
   
   .tool {
     width: 100%;
+  }
+
+  #profile-image {
+    margin-right: 200px; /* Adjust the margin as needed */
+    max-width: 100%;
+  }
+  
+  .about-info {
+    max-width: 150%; /* Adjust the max-width as needed */
   }
   
   /* About */
