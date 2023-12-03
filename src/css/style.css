@@ -523,6 +523,7 @@ header nav ul {
     text-align: center;
   border-radius: 5px;
   font-size:x-small;
+  font-weight: 700;
   }
 
   .tool-wrapper, .language-wrapper {
@@ -712,24 +713,31 @@ header nav ul {
    .tool-wrapper p {
      background-color: #152A3E;
      color: #E9B14C;
-     width: 15%;
      margin: 0;
      text-align: center;
-   /**padding: 15px;**/
    border-radius: 5px;
+   }
+
+   .tool-wrapper p {
+    width: 25%;
+    align-items: center;
+     padding-top: 2%;
+     padding-bottom: 1%;
+
+   }
+
+   .language-wrapper p {
+    align-items: center;
+    width: 14%;
+    padding-top: 6%;
+    padding-bottom: 4%;
+    font-size: small;
+
    }
  
    .tool-wrapper, .language-wrapper {
      display: flex;
      justify-content: space-around;
-   }
- 
-   .skills {
- 
-     width: 100%;
-     /**justify-content: center;**/
-     display: flex;
-    /** flex-direction: column;**/
    }
  
    
@@ -849,7 +857,6 @@ header nav ul {
   }
 
 
-
   .tool-wrapper, .language-wrapper {
     display: flex;
     justify-content: space-around;
@@ -868,11 +875,15 @@ header nav ul {
 
   #profile-image {
     margin-right: 200px; /* Adjust the margin as needed */
-    max-width: 100%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    width: 100%; /* Adjust the width as needed */
+    height: 200%; /* Adjust the height as needed */
+  border-radius: 60%; /* Optional: Make the image circular */
   }
   
   .about-info {
-    max-width: 150%; /* Adjust the max-width as needed */
+    max-width: 100%; /* Adjust the max-width as needed */
   }
   
   /* About */
@@ -891,7 +902,7 @@ header nav ul {
   
   .about-info {
     flex: 1; /* This will make the about-info div take up the remaining space */
-    padding: 100px; /* Adjust the padding as needed */
+    padding-left: 10%; /* Adjust the padding as needed */
     text-align: left; /* You can change this to 'center' if you want the text to be centered */
   }
   
@@ -903,3 +914,5 @@ header nav ul {
     color: #4a4f3e;
   }
 }
+
+
