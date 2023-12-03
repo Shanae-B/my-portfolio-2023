@@ -842,18 +842,12 @@ header nav ul {
     width: 15%;
     margin: 0;
     text-align: center;
-    /**align-items: center;
-    padding-top: 3%;
-    padding-bottom: 2%;**/
-  border-radius: 5px;
-  }
-
-  .language-wrapper p {
     align-items: center;
     padding-top: 2%;
     padding-bottom: 1%;
-
+  border-radius: 5px;
   }
+
 
   .tool-wrapper, .language-wrapper {
     display: flex;
