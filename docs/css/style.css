@@ -163,7 +163,6 @@
   
   p,
   li {
-    font-size: 1rem;
     line-height: 1.5;
   }
   
@@ -358,7 +357,6 @@
     margin-bottom: 20px;
     font-weight: bold;
     text-transform: uppercase;
-    padding-left:80px;
   }
   
   nav #contact-link {
