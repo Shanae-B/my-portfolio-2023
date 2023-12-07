@@ -517,7 +517,7 @@ header nav ul {
   .language-wrapper p,
   .tool-wrapper p {
     color: #152A3E;
-    width: 20%;
+    width: 100%;
     margin: 0;
     text-align: center;
   border-radius: 5px;
@@ -527,7 +527,8 @@ header nav ul {
 
   .tool-wrapper, .language-wrapper {
     display: flex;
-    justify-content: space-around;
+    /**justify-content: space-around;**/
+    flex-flow: row wrap;
   }
   .skills {
 
