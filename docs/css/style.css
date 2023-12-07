@@ -521,13 +521,12 @@ header nav ul {
     margin: 0;
     text-align: center;
   border-radius: 5px;
-  font-size:x-small;
+  font-size: small;
   font-weight: 700;
   }
 
   .tool-wrapper, .language-wrapper {
     display: flex;
-    /**justify-content: space-around;**/
     flex-flow: row wrap;
   }
   .skills {
