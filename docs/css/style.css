@@ -844,8 +844,8 @@ header nav ul {
   
   .language-wrapper p,
   .tool-wrapper p {
-    background-color: #152A3E;
-    color: #E9B14C;
+    /**background-color: #152A3E;**/
+    color: #152A3E;
     width: 15%;
     margin: 0;
     text-align: center;
@@ -859,6 +859,7 @@ header nav ul {
   .tool-wrapper, .language-wrapper {
     display: flex;
     justify-content: space-around;
+    border-style: double;
   }
 
 
