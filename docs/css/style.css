@@ -15,6 +15,7 @@
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    scroll-behavior: smooth;
   }
   
   /*
@@ -211,12 +212,10 @@
 
 
 .about-info, .about-text {
-  /**padding-left: 300px;**/
   margin: 5px 0 50px 0;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  /**align-items: flex-start;**/
 
 }
   
