@@ -438,20 +438,19 @@
 
   header nav {
 
-    width: 100%;
-    display: flex;
-    justify-content:space-around;
-    flex-flow: row wrap;
-
+  width: 100%;
+  display: flex;
+  justify-content:space-around;
+  flex-flow: row wrap;
 
   }
 
 header nav ul {
   width: 100%;
-    font-weight: 700;
-    text-transform: uppercase;
-    align-items: center;
-    flex-flow: row wrap;
+  font-weight: 700;
+  text-transform: uppercase;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 
@@ -519,9 +518,9 @@ header nav ul {
     width: 100%;
     margin: 0;
     text-align: center;
-  border-radius: 5px;
-  font-size: small;
-  font-weight: 700;
+    border-radius: 5px;
+    font-size: small;
+    font-weight: 700;
   }
 
   .tool-wrapper, .language-wrapper {
@@ -547,8 +546,8 @@ header nav ul {
   #about {
     width: 100%;
     display: flex;
-  justify-content: center; /* Center the content horizontally */
-  align-items: center; /* Center the content vertically */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
   }
 
   .about-content-wrapper {
@@ -671,7 +670,7 @@ header nav ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 columns */
     grid-template-rows: repeat(3, auto); /* 3 rows with auto height */
-    gap: 20px; /* Adjust the gap as needed */
+    gap: 80px; /* Adjust the gap as needed */
   }
   
   .home-portfolio-piece {
@@ -727,7 +726,7 @@ header nav ul {
     align-items: center;
     padding-top: 2%;
     padding-bottom: 1%;
-  border-radius: 5px;
+    border-radius: 5px;
   }
 
 
@@ -754,8 +753,8 @@ header nav ul {
    #about {
     width: 100%;
     display: flex;
-  justify-content: center; /* Center the content horizontally */
-  align-items: center; /* Center the content vertically */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
   }
 
   .about-content-wrapper {
@@ -799,11 +798,9 @@ header nav ul {
   .portfolio-header {
 
     margin-bottom:20%;
-
-   }
+ }
    
    .portfolio-wrapper {
-    /**display: flex;**/
     justify-content: center;
     flex-flow: row wrap;
     display: grid;
@@ -860,7 +857,6 @@ header nav ul {
   
   .language-wrapper p,
   .tool-wrapper p {
-    /**background-color: #152A3E;**/
     color: #152A3E;
     width: 15%;
     margin: 0;
@@ -868,7 +864,7 @@ header nav ul {
     align-items: center;
     padding-top: 2%;
     padding-bottom: 1%;
-  border-radius: 5px;
+    border-radius: 5px;
   }
 
 
@@ -895,7 +891,7 @@ header nav ul {
     padding-top: 1%;
     width: 100%; /* Adjust the width as needed */
     height: 200%; /* Adjust the height as needed */
-  border-radius: 60%; /* Optional: Make the image circular */
+    border-radius: 60%; /* Optional: Make the image circular */
   }
   
   .about-info {
