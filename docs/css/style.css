@@ -171,8 +171,8 @@
     font-weight: bold;
   }
   
-  img {
-    width: 50%;
+  .home-portfolio-piece img {
+    width: 75%;
   }
   
   figure {
