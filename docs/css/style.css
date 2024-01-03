@@ -816,6 +816,11 @@ header nav ul {
     flex-direction: column;
     align-items: center;
   }
+
+  .home-portfolio-piece img {
+
+    width: 60%;
+  }
   
   .home-portfolio-piece h4 {
     font-weight: bold;
